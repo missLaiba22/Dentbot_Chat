@@ -1,0 +1,34 @@
+# .gitignore file
+
+# Ignore environment variables file
+.env
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Gradio cache and generated files
+gradio_cached_examples/
+
+# Ignore Colab temporary files
+colab-log.txt
+
+# Ignore any other sensitive files
+secrets.json
